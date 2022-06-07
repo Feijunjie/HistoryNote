@@ -9,3 +9,14 @@ xcodebuild build -workspace YppLife.xcworkspace -scheme YppLife SYMROOT="$(pwd)/
 
 第二中有时候编译会失败，找不到路径，可以用第一个，如果失败再用第二个。
 
+
+
+2.删除钥匙串中的证书
+
+```
+sudo security delete-certificate -c "iPhone Distribution: xxx"
+
+//可能要输密码
+echo "123456" | sudo xxx
+```
+
