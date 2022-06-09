@@ -17,6 +17,6 @@ xcodebuild build -workspace YppLife.xcworkspace -scheme YppLife SYMROOT="$(pwd)/
 sudo security delete-certificate -c "iPhone Distribution: xxx"
 
 //可能要输密码
-echo "123456" | sudo xxx
+echo "123456" | sudo -S sudo security delete-certificate -c "iPhone Distribution:xxx"
 ```
 
